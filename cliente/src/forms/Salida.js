@@ -2,8 +2,8 @@ import React from 'react';
 
 function Salida() {
     return(
-        <div className="formulario">
-            <h1>Gracias por participar!!!</h1>
+        <div className="salida">
+            <h1></h1>
         </div>
     )
 }

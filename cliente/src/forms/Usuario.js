@@ -753,7 +753,7 @@ function Usuario () {
 							</div>
 							<div className="col">
 								<Link to="/salida">
-									<button type="submit">
+									<button type="submit" disabled={!formularioSend}>
 										Siguiente
 									</button>
 								</Link>
