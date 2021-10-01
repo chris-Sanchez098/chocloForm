@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend para react app en el manejo de formularios",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "cliente": "npm start --prefix cliente",
+    "dev": "concurrently \"npm run server\" \"npm run cliente\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix cliente && npm run build --prefix cliente"
+  },
+  "author": "Chris Sanchez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13",
+    "pg": "^8.7.1"
+  }
+}
