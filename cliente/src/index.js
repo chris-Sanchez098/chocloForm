@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Formulario from './Formulario';
+import App from './App';
 
 ReactDOM.render(
     <div className="contenedor">
-			<Formulario /> 
+			<App /> 
 		</div>,
   document.getElementById('root')
 );

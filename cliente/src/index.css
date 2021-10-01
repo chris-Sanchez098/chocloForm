@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('bootstrap/dist/css/bootstrap.min.css');
 
 * {
 	padding: 0px;
@@ -7,7 +7,7 @@
 }
 
 body {
-	background: #E8E8E8;
+	background: hsl(63, 92%, 49%);
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -21,7 +21,7 @@ body {
 .formulario {
 	min-width: 600px;
 	margin-top: 50px;
-	background: #fff;
+	background: rgb(24, 190, 52);
 	border-radius: 5px;
 	padding: 20px;
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -38,13 +38,14 @@ body {
 	margin-bottom: 5px;
 	color: #1f1f1f;
 }
-
 .formulario input,
+.formulario input [type="radio, select"],
+.formulario select,
 .formulario textarea {
 	font-family: 'Open Sans', sans-serif;
 	width: 100%;
 	border-radius: 5px;
-	border: 2px solid #e2e2e2;
+	border: 2px solid rgb(85, 255, 114);
 	font-size: 18px;
 	padding: 10px;
 	margin-bottom: 5px;
@@ -64,7 +65,7 @@ body {
 
 .formulario button[type="submit"] {
 	display: block;
-	background: #0085FF;
+	background: hsl(63, 92%, 49%);
 	font-weight: 600;
 	font-family: 'Open Sans', sans-serif;
 	border: none;
@@ -72,14 +73,12 @@ body {
 	width: 100%;
 	padding: 10px;
 	border-radius: 5px;
-	color: #fff;
+	color: rgb(0, 0, 0);
 	font-size: 16px;
 	transition: .3s ease all;
 }
 
-.formulario button[type="submit"]:hover {
-	background: #0051ff;
-}
+
 
 .formulario .exito {
 	text-align: center;
@@ -103,8 +102,28 @@ button,
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
   font-size: 15px;
   font-weight: 500;
-  color: #fff;
+  color: #000000;
+ margin-top:20px;
   cursor: pointer;
   outline: none;
   -webkit-appearance: none;
+  background: hsl(63, 92%, 49%);
+}
+.formGroupRadios{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.formGroupRadios > .form-group{
+	padding-right: 40px;
+	padding-left: 40px;
+
+}
+.botones{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top:20px;
+
 }
