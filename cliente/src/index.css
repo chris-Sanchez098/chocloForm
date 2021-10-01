@@ -40,6 +40,17 @@ body {
 	overflow-y: scroll;
 }
 
+.salida {
+	width: 40%;
+	height: 90vh;
+	margin-top: 5vh;
+	background-image: url("https://i.imgur.com/MKutmri.jpg");
+	
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	overflow-y: scroll;
+}
 
 .formulario > div {
 	margin-bottom: 20px;
